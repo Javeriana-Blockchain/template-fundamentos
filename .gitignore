@@ -1,0 +1,15 @@
+# secretos: nunca
+.env
+.env.*
+*.secret
+*seed*
+*.pem
+# sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# node
+node_modules/
+dist/
