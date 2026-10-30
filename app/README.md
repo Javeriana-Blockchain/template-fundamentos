@@ -20,3 +20,13 @@ Cómo agregar una operación nueva (p. ej. una oferta en el exchange):
 3. Prueba en testnet y busca el hash en stellar.expert.
 
 Errores: Horizon devuelve `result_codes` (`op_no_trust`, `op_underfunded`, `tx_bad_seq`…); la app los muestra tal cual. La tabla de qué significan está en la guía de la sesión 2.
+
+## Sin computador propio: GitHub Codespaces
+
+Desde la página del repo en GitHub: **Code → Codespaces → Create codespace on main**. En la terminal del Codespace:
+
+```bash
+cd app && npm install && npm run dev
+```
+
+En la pestaña **Ports** aparece el 5173: ábrelo con el icono del globo (se abre en `https://...app.github.dev`). Freighter funciona en esa URL igual que en localhost. El `vite.config.js` ya detecta Codespaces (variable `CODESPACES`) y permite ese host.
