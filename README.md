@@ -30,13 +30,15 @@ Diagrama de cuentas, trustlines y pagos: `docs/diagrama-activo.png` (a mano est�
 
 ## La app (desde la sesión 3)
 
-Carpeta `app/`: React + Vite + Freighter. Ver `app/README.md` para correrla.
+Carpeta `app/`: React + Vite + Freighter (balances por activo, trustline y pago). Ver `app/README.md` para correrla.
+
+Hash de un pago en nuestro activo hecho desde la app: `<64 caracteres hexadecimales>`
 
 ## Problema que resolvemos (desde la sesión 3)
 
 <Una frase. Quién tiene el problema, qué le pasa hoy, qué cambia con nuestra solución.>
 
-Operaciones de Stellar que usa cada pantalla:
+Las tres pantallas y sus bocetos están en [`docs/PANTALLAS.md`](docs/PANTALLAS.md). Resumen:
 
 | Pantalla | Operación | Por qué |
 |---|---|---|
